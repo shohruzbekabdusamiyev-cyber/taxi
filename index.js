@@ -281,6 +281,8 @@ if (data === "myRequests") {
 
 
 👤 @${request.username}
+
+Bot orqali taxi toping yoki so'rov yuboring @taxiforusers_bot
 `;
 
   if (request.post) text += "\n📦 POCHTA OLADI";
@@ -359,6 +361,8 @@ if (data === "myRequests") {
 
 
 👤 @${username}
+
+Bot orqali taxi toping yoki so'rov yuboring @taxiforusers_bot
 `;
 
     if (updated.post) preview += "\n📦 POCHTA OLADI";
@@ -498,6 +502,9 @@ bot.on("message", async (msg) => {
 📞 ${r.phone}
 
 👤 @${r.username}
+
+
+Bot orqali taxi toping yoki so'rov yuboring @taxiforusers_bot
 `;
 
       if (r.post) text += "\n📦 POCHTA OLADI";
